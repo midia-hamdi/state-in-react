@@ -2,4 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './app';
 
-ReactDOM.render(<App />, document.getElementById('root'))
+function render(){
+    ReactDOM.render(<App />, document.getElementById('root'))
+}
+
+setInterval(render, 1000)
