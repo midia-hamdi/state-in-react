@@ -1,7 +1,6 @@
 import React from 'react'
+import Clock from './components/clock'
 
-export default function app() {
-  return (
-    <div>app</div>
-  )
+export default function App() {
+  return <Clock />
 }
